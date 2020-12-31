@@ -3,7 +3,8 @@ Visual Studio Code , Python
 <img src='Project/entete.png'/>
 ## Sommaire: 
 1. [Introduction](#Introduction)
-2. [Méthodes d’intégration numérique](#Méthodes)
+
+2. [Méthodes d’intégration numérique](#méthodes)
 
       2.1 [But](#but)
       
@@ -15,15 +16,15 @@ Visual Studio Code , Python
       
       2.5 [Les 4 méthodes](#lesmethodes)
       
-3. [Interpolation polynomiale](#Interpolation)
+3. [Interpolation polynomiale](#interpolation)
 
-     3.1 [Interpolation de Lagrange](#Interpolation)
+     3.1 [Interpolation de Lagrange](#interpolation)
      
-          3.1.1 [Phénomène de Runge](#Phénomène)
+      3.1.1 [Phénomène de Runge](#phénomène)
           
-            a. [Choix des points](#Choix)
+      a. [Choix des points](#choix)
             
-            b. [Segmentation](#Segmentation)
+      b. [Segmentation](#segmentation)
        
 4. [Conclusion](#Conclusion)
 
