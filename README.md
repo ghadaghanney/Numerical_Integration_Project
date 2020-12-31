@@ -141,3 +141,4 @@ Pour approcher une fonction avec des polynômes, on peut préférer utiliser des
   
 ## Conclusion
 
+On conclut que l'intégration numerique est une méthode pour calculer une valeur approximative d'une fonction qui est compliquée d'une autre coté lint&gration numérique permet d'estimé l'intégrale de cette fonction par la méthode d'interpolation avec certain erreur.
