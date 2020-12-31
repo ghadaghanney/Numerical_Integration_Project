@@ -1,8 +1,9 @@
 # Projet_Analyse_Numérique
 Visual Studio Code , Python
 <img src='Project/entete.png'/>
-## Sommaire : 
-## Introduction
+## Sommaire: 
+## Introduction:
+<img src='Project/demo_peek.gif'/>
 ## Méthodes d’intégration numérique
  But 
  
@@ -22,10 +23,10 @@ Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’
  
  Méthode de Simpson
  
-## Interpolation polynomiale
+## Interpolation polynomiale:
 
   Interpolation de Lagrange
   
-   Phénomène de Runge
+  Phénomène de Runge
 ## Conclusion
-<img src='Project/demo_peek.gif'/>
+
