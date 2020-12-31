@@ -83,6 +83,9 @@ L'interpolation polynomiale est une technique d'interpolation d'un ensemble de d
 
 Le résultat n'est toutefois pas toujours à la hauteur des espérances : dans le cas de l'interpolation lagrangienne, par exemple, le choix des points d'interpolation est critique. L'interpolation en des points régulièrement espacés peut fort bien diverger même pour des fonctions très régulières (phénomène de Runge).
 
+<img src='Pictures/interpo.png'/>
+
+
 #### Interpolation de Lagrange
 
 ##### Phénomène de Runge
