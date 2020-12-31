@@ -2,7 +2,7 @@
 Visual Studio Code , Python
 <img src='Project/entete.png'/>
 ## Sommaire: 
-
+1. [Introduction](#Introduction)
 2. [Méthodes d’intégration numérique](#Méthodes)
 3. [Interpolation polynomiale](#Interpolation)
 4. [Conclusion](#Conclusion)
@@ -41,11 +41,16 @@ La valeur de l’erreur ne peut pas être calculée exactement puisqu’en gén�
 • La rapidité d’exécution nécessaire pour atteindre ce résultat. De manière générale, toutes les méthodes
 peuvent atteindre de très grandes précisions. Cependant, le temps de calcul augmente avec la précision. Ce temps n’augmente pas de la même manière pour toutes les méthodes si bien que certaines s’avèrent plus efficaces que d’autres. En particulier, le temps de calcul des méthodes de quadrature est proportionnel au nombre de points où la fonction f(x) est évaluée.
  
- #### Méthode du rectangle
+#### Méthode du rectangle
  
- #### Méthode du point milieu
+#### Méthode du point milieu
  
- #### Méthode du trapèze
+#### Méthode du trapèze
+La méthode des trapèzes est une méthode pour le calcul numérique d'une intégrale I s'appuyant sur l'interpolation linéaire par intervalles.
+
+Pour obtenir de meilleurs résultats, on découpe l'intervalle [a , b] en n intervalles plus petits et on applique la méthode sur chacun d'entre eux. Bien entendu, il suffit d'une seule évaluation de la fonction à chaque nœud :
+<img src='Pictures/trapeze.png'/>
+
  
  #### Méthode de Simpson 
  
