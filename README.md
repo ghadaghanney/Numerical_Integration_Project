@@ -10,7 +10,6 @@ Visual Studio Code , Python
 
 ## Introduction:
 <img src='Project/demo_peek.gif'/>
-
 ## Méthodes d’intégration numérique:
 #### But 
  
@@ -48,8 +47,7 @@ peuvent atteindre de très grandes précisions. Cependant, le temps de calcul au
  
  #### Méthode du trapèze
  
- #### Méthode de Simpson
- 
+ #### Méthode de Simpson 
 ## Interpolation polynomiale:
   #### Interpolation de Lagrange
   
