@@ -10,6 +10,7 @@ Visual Studio Code , Python
 
 ## Introduction:
 <img src='Project/demo_peek.gif'/>
+
 ## Méthodes d’intégration numérique:
 
 #### But 
