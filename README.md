@@ -16,7 +16,7 @@ Visual Studio Code , Python
       
       2.5 [Les 4 méthodes](#lesmethodes)
       
-3. [Interpolation_polynomiale](#interpolation)
+3. [Interpolation polynomiale](#interpolation)
 
      3.1 [Interpolation de Lagrange](#interpolation)
      
