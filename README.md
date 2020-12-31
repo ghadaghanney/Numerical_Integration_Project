@@ -74,7 +74,7 @@ Un polynôme étant une fonction très facile à intégrer, on approche l'intég
 
 <img src='Pictures/simpson.png'/>
 
-<img src='Pictures/simpson.gif/>
+<img src='Pictures/simpson.gif'/>
  
  
 ## Interpolation polynomiale:
