@@ -6,6 +6,8 @@ Visual Studio Code , Python
 ## Méthodes d’intégration numérique
  But 
  
+Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction f(x) sur un domaine fini délimité par des bornes finies a et b ( les cas des bornes infinies n’est donc pas couvert ).
+
  Motivations
  
  Principe
@@ -24,7 +26,6 @@ Visual Studio Code , Python
 
   Interpolation de Lagrange
   
-    Phénomène de Runge
-    
+   Phénomène de Runge
 ## Conclusion
 <img src='Project/demo_peek.gif'/>
