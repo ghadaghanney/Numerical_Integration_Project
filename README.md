@@ -1,6 +1,6 @@
-# Numerical_Integration_Project
-Python
+# Projet_Analyse_Numérique
+Visual Studio Code , Python
 
-# Summary : 
+# Sommaire : 
 <img src='Project/entete.png'/>
 <img src='Project/demo_peek.gif'/>
