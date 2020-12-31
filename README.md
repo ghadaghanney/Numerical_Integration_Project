@@ -4,7 +4,7 @@ Visual Studio Code , Python
 ## Sommaire: 
 1. [Introduction](#Introduction)
 
-2. [Méthodes d’intégration numérique](#Méthodes)
+2. [Méthodes d'intégration numérique](#Méthodes)
 
       2.1 [But](#but)
       
@@ -22,9 +22,9 @@ Visual Studio Code , Python
      
       3.1.1 [Phénomène de Runge](#phénomène)
       
-           a. [Choix des points](#choix)
+      a. [Choix des points](#choix)
            
-           b. [Segmentation](#segmentation)
+      b. [Segmentation](#segmentation)
        
 4. [Conclusion](#Conclusion)
 
