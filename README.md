@@ -22,9 +22,9 @@ Visual Studio Code , Python
      
       3.1.1 [Phénomène de Runge](#phénomène)
       
-      a. [Choix des points](#choix)
+      1) [Choix des points](#choix)
            
-      b. [Segmentation](#segmentation)
+      2) [Segmentation](#segmentation)
        
 4. [Conclusion](#Conclusion)
 
