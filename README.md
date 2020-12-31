@@ -11,6 +11,7 @@ Visual Studio Code , Python
 ## Introduction:
 <img src='Project/demo_peek.gif'/>
 ## Méthodes d’intégration numérique:
+
 #### But 
  
 Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction f(x) sur un domaine fini délimité par des bornes finies a et b ( les cas des bornes infinies n’est donc pas couvert ).
@@ -43,8 +44,11 @@ peuvent atteindre de très grandes précisions. Cependant, le temps de calcul au
  
 #### Méthode du rectangle
 La méthode des rectangles est une méthode algorithmique permettant d’encadrer l’aire d’un domaine sous une courbe représentative de fonction et sur un intervalle donné.
-<img src='Pictures/rect1.gif'/>
-<img src='Pictures/rect2.gif'/>
+
+<img src='Pictures/rect1.png'/>
+
+<img src='Pictures/rec2.png'/>
+
 Intuitivement, plus le nombre de rectangles grandit, plus les sommes des aires des rectangles vont se rapprocher vers l’intégrale de la fonction sur le même intervalle.
 
 <img src='Pictures/rect6.gif'/>
@@ -67,6 +71,7 @@ Pour obtenir de meilleurs résultats, on découpe l'intervalle [a , b] en n inte
 La méthode de Simpson est une technique de calcul numérique d'une intégrale.
 
 Un polynôme étant une fonction très facile à intégrer, on approche l'intégrale de la fonction f sur l'intervalle [a, b], par l'intégrale de P sur ce même intervalle. On a ainsi, la simple formule : 
+
 <img src='Pictures/simpson.png'/>
 
 <img src='Pictures/simpson.gif/>
