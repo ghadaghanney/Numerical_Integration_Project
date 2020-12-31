@@ -30,6 +30,23 @@ Visual Studio Code , Python
 
 
 ## Introduction:
+
+Mon projet consiste à modéliser quatres méthodes d'intégration numériques et aussi l'étude de l'interpolation polynomiale avec 3 interfaces graphiques réalisés par « Tkinter ». 
+
+Les méthodes d’intégrations étudiées dans le projet sont:
+
+- Méthode des Rectangles Gauches
+
+- Méthode des Trapèzes
+
+- Méthode des Points Milieux
+
+- Méthode de Simpson
+
+Interpolation polynomiale choisie est le phénomène de Runge.
+
+Comme le montre le demo suivant : 
+
 <img src='Project/demo_peek.gif'/>
 
 ## Méthodes d’intégration numérique:
