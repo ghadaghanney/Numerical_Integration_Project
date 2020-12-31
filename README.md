@@ -44,34 +44,34 @@ La valeur de l’erreur ne peut pas être calculée exactement puisqu’en gén�
 peuvent atteindre de très grandes précisions. Cependant, le temps de calcul augmente avec la précision. Ce temps n’augmente pas de la même manière pour toutes les méthodes si bien que certaines s’avèrent plus efficaces que d’autres. En particulier, le temps de calcul des méthodes de quadrature est proportionnel au nombre de points où la fonction f(x) est évaluée.
  
 #### Méthode du rectangle
-La méthode des rectangles est une méthode algorithmique permettant d’encadrer l’aire d’un domaine sous une courbe représentative de fonction et sur un intervalle donné.
+• La méthode des rectangles est une méthode algorithmique permettant d’encadrer l’aire d’un domaine sous une courbe représentative de fonction et sur un intervalle donné.
 
 <img src='Pictures/rect1.png'/>
 
 <img src='Pictures/rec2.png'/>
 
-Intuitivement, plus le nombre de rectangles grandit, plus les sommes des aires des rectangles vont se rapprocher vers l’intégrale de la fonction sur le même intervalle.
+• Intuitivement, plus le nombre de rectangles grandit, plus les sommes des aires des rectangles vont se rapprocher vers l’intégrale de la fonction sur le même intervalle.
 
 <img src='Pictures/rect6.gif'/>
 
 #### Méthode du point milieu
-En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
+• En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
 
-Le principe est d'approcher l'intégrale de la fonction f par l'aire d'un rectangle de base le segment [a,b] et de hauteur f(a+b/2).
+• Le principe est d'approcher l'intégrale de la fonction f par l'aire d'un rectangle de base le segment [a,b] et de hauteur f(a+b/2).
 
 <img src='Pictures/pt_milieu.png'/>
  
 #### Méthode du trapèze
-La méthode des trapèzes est une méthode pour le calcul numérique d'une intégrale I s'appuyant sur l'interpolation linéaire par intervalles.
+• La méthode des trapèzes est une méthode pour le calcul numérique d'une intégrale I s'appuyant sur l'interpolation linéaire par intervalles.
 
-Pour obtenir de meilleurs résultats, on découpe l'intervalle [a , b] en n intervalles plus petits et on applique la méthode sur chacun d'entre eux. Bien entendu, il suffit d'une seule évaluation de la fonction à chaque nœud :
+• Pour obtenir de meilleurs résultats, on découpe l'intervalle [a , b] en n intervalles plus petits et on applique la méthode sur chacun d'entre eux. Bien entendu, il suffit d'une seule évaluation de la fonction à chaque nœud :
 <img src='Pictures/trapeze.png'/>
 <img src='Pictures/Trapezium2.gif'/>
  
  #### Méthode de Simpson 
-La méthode de Simpson est une technique de calcul numérique d'une intégrale.
+• La méthode de Simpson est une technique de calcul numérique d'une intégrale.
 
-Un polynôme étant une fonction très facile à intégrer, on approche l'intégrale de la fonction f sur l'intervalle [a, b], par l'intégrale de P sur ce même intervalle. On a ainsi, la simple formule : 
+• Un polynôme étant une fonction très facile à intégrer, on approche l'intégrale de la fonction f sur l'intervalle [a, b], par l'intégrale de P sur ce même intervalle. On a ainsi, la simple formule : 
 
 <img src='Pictures/simpson.png'/>
 
@@ -79,9 +79,16 @@ Un polynôme étant une fonction très facile à intégrer, on approche l'intég
  
  
 ## Interpolation polynomiale:
-#### Interpolation de Lagrange
+• L'interpolation polynomiale est une technique d'interpolation d'un ensemble de données ou d'une fonction par un polynôme. En d'autres termes, étant donné un ensemble de points (obtenu, par exemple, à la suite d'une expérience), on cherche un polynôme qui passe par tous ces points, et éventuellement vérifie d'autres conditions, de degré si possible le plus bas.
 
-#### Phénomène de Runge
+• Le résultat n'est toutefois pas toujours à la hauteur des espérances : dans le cas de l'interpolation lagrangienne, par exemple, le choix des points d'interpolation est critique. L'interpolation en des points régulièrement espacés peut fort bien diverger même pour des fonctions très régulières (phénomène de Runge).
+
+#### * Interpolation de Lagrange
+
+##### - Phénomène de Runge
+• Le phénomène de Runge met en lumière le fait que l'interpolation polynomiale n'est pas toujours bien adaptée à l'approximation de fonctions.
+###### 1) Choix des points
+• On peut minimiser l'oscillation des polynômes interpolateurs en utilisant les abscisses de Tchebychev au lieu de points équirépartis pour interpoler. Dans ce cas, on peut montrer que l'erreur d'interpolation (c'est-à-dire {\displaystyle \max _{-1\leq x\leq 1}|f(x)-P_{n}(x)|}{\displaystyle \max _{-1\leq x\leq 1}|f(x)-P_{n}(x)|}) décroît lorsque n augmente (on peut le voir en étudiant la constante de Lebesgue des points de Tchebychev, à la croissance logarithmique).
   
 ## Conclusion
 
