@@ -31,7 +31,7 @@ Visual Studio Code , Python
 
 ## Introduction:
 
-Mon projet consiste à modéliser quatres méthodes d'intégration numériques et aussi l'étude de l'interpolation polynomiale avec 3 interfaces graphiques réalisés par « Tkinter ». 
+Mon projet permet d'étuder une fonction f(x) , la modéliser avec les quatres méthodes d'intégration numériques. Aussi, il consiste à étuder l'interpolation polynomiale(phénomène de Runge). On obtient la représentation graphique de la fonction f(x) avec 3 interfaces graphiques réalisés par « Tkinter ». 
 
 Les méthodes d’intégrations étudiées dans le projet sont:
 
@@ -50,6 +50,7 @@ Comme le montre le demo suivant :
 <img src='Project/demo_peek.gif'/>
 
 ## Méthodes d’intégration numérique:
+
 #### But 
  
 Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction f(x) sur un domaine fini délimité par des bornes finies a et b ( les cas des bornes infinies n’est donc pas couvert ).
