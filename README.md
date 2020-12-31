@@ -4,12 +4,16 @@ Visual Studio Code , Python
 ## Sommaire: 
 1. [Introduction](#Introduction)
 
-2. [Méthodes_d’intégration_numérique](#méthodes)
+2. [Méthodes d’intégration numérique](#Méthodes)
 
       2.1 [But](#but)
+      
       2.2 [Motivations](#motivation)
+      
       2.3 [Principe](#principe)
+      
       2.4 [Performances](#performances) 
+      
       2.5 [Les 4 méthodes](#lesmethodes)
       
 3. [Interpolation_polynomiale](#interpolation)
@@ -17,7 +21,9 @@ Visual Studio Code , Python
      3.1 [Interpolation de Lagrange](#interpolation)
      
       3.1.1 [Phénomène de Runge](#phénomène)
+      
            a. [Choix des points](#choix)
+           
            b. [Segmentation](#segmentation)
        
 4. [Conclusion](#Conclusion)
