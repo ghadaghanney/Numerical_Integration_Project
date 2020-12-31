@@ -115,10 +115,10 @@ Le phénomène de Runge met en lumière le fait que l'interpolation polynomiale 
 
 <img src='Pictures/runge.png'/>
 
-###### 1) Choix des points
+###### i. Choix des points
 On peut minimiser l'oscillation des polynômes interpolateurs en utilisant les abscisses de Tchebychev au lieu de points équirépartis pour interpoler. Dans ce cas, on peut montrer que l'erreur d'interpolation décroît lorsque n augmente (on peut le voir en étudiant la constante de Lebesgue des points de Tchebychev, à la croissance logarithmique).
 
-###### 1) Segmentation
+###### ii. Segmentation
 Pour approcher une fonction avec des polynômes, on peut préférer utiliser des splines par exemple (ce sont des polynômes par morceaux). Dans ce cas, pour améliorer l'approximation, on augmente le nombre de morceaux et non le degré des polynômes.
   
 ## Conclusion
