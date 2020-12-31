@@ -2,7 +2,11 @@
 Visual Studio Code , Python
 <img src='Project/entete.png'/>
 ## Sommaire: 
-.[Introduction](#Introduction)
+1. [Introduction](#Introduction)
+2. [Méthodes d’intégration numérique](#Méthodes d’intégration numérique)
+3. [Interpolation polynomiale:](#Interpolation polynomiale:)
+4. [Conclusion](#Conclusion)
+
 
 ## Introduction:
 <img src='Project/demo_peek.gif'/>
