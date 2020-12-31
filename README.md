@@ -4,7 +4,18 @@ Visual Studio Code , Python
 ## Sommaire: 
 1. [Introduction](#Introduction)
 2. [Méthodes d’intégration numérique](#Méthodes)
+      2.1 [But](#but)
+      2.2 [Motivations](#motivation)
+      2.3 [Principe](#principe)
+      2.4 [Performances](#performances)
+      2.5 [Les 4 méthodes](#lesmethodes)
+      
 3. [Interpolation polynomiale](#Interpolation)
+     3.1 [Interpolation de Lagrange](#Interpolation)
+          3.1.1 [Phénomène de Runge](#Phénomène)
+            a. [Choix des points](#Choix)
+            b. [Segmentation](#Segmentation)
+       
 4. [Conclusion](#Conclusion)
 
 
@@ -42,7 +53,9 @@ La valeur de l’erreur ne peut pas être calculée exactement puisqu’en gén�
 • La rapidité d’exécution nécessaire pour atteindre ce résultat. De manière générale, toutes les méthodes
 peuvent atteindre de très grandes précisions. Cependant, le temps de calcul augmente avec la précision. Ce temps n’augmente pas de la même manière pour toutes les méthodes si bien que certaines s’avèrent plus efficaces que d’autres. En particulier, le temps de calcul des méthodes de quadrature est proportionnel au nombre de points où la fonction f(x) est évaluée.
  
-#### 1) Méthode du rectangle
+#### Les 4 méthodes
+ 
+##### 1) Méthode du rectangle
 La méthode des rectangles est une méthode algorithmique permettant d’encadrer l’aire d’un domaine sous une courbe représentative de fonction et sur un intervalle donné.
 
 <img src='Pictures/rect1.png'/>
@@ -53,21 +66,21 @@ Intuitivement, plus le nombre de rectangles grandit, plus les sommes des aires d
 
 <img src='Pictures/rect6.gif'/>
 
-#### 2) Méthode du point milieu
+##### 2) Méthode du point milieu
 En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
 
 Le principe est d'approcher l'intégrale de la fonction f par l'aire d'un rectangle de base le segment [a,b] et de hauteur f(a+b/2).
 
 <img src='Pictures/pt_milieu.png'/>
  
-#### Méthode du trapèze
+##### 3) Méthode du trapèze
 La méthode des trapèzes est une méthode pour le calcul numérique d'une intégrale I s'appuyant sur l'interpolation linéaire par intervalles.
 
 Pour obtenir de meilleurs résultats, on découpe l'intervalle [a , b] en n intervalles plus petits et on applique la méthode sur chacun d'entre eux. Bien entendu, il suffit d'une seule évaluation de la fonction à chaque nœud :
 <img src='Pictures/trapeze.png'/>
 <img src='Pictures/Trapezium2.gif'/>
  
- #### 3) Méthode de Simpson 
+ ##### 4) Méthode de Simpson 
 La méthode de Simpson est une technique de calcul numérique d'une intégrale.
 
 Un polynôme étant une fonction très facile à intégrer, on approche l'intégrale de la fonction f sur l'intervalle [a, b], par l'intégrale de P sur ce même intervalle. On a ainsi, la simple formule : 
