@@ -46,12 +46,14 @@ La méthode des rectangles est une méthode algorithmique permettant d’encadre
 <img src='Pictures/rect1.gif'/>
 <img src='Pictures/rect2.gif'/>
 Intuitivement, plus le nombre de rectangles grandit, plus les sommes des aires des rectangles vont se rapprocher vers l’intégrale de la fonction sur le même intervalle.
+
 <img src='Pictures/rect6.gif'/>
 
 #### Méthode du point milieu
 En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
 
 Le principe est d'approcher l'intégrale de la fonction f par l'aire d'un rectangle de base le segment [a,b] et de hauteur f(a+b/2).
+
 <img src='Pictures/pt_milieu.png'/>
  
 #### Méthode du trapèze
@@ -66,6 +68,7 @@ La méthode de Simpson est une technique de calcul numérique d'une intégrale.
 
 Un polynôme étant une fonction très facile à intégrer, on approche l'intégrale de la fonction f sur l'intervalle [a, b], par l'intégrale de P sur ce même intervalle. On a ainsi, la simple formule : 
 <img src='Pictures/simpson.png'/>
+
 <img src='Pictures/simpson.gif/>
  
  
