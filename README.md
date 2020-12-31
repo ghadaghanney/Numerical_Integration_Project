@@ -4,13 +4,13 @@ Visual Studio Code , Python
 ## Sommaire: 
 1. [Introduction](#Introduction)
 2. [Méthodes d’intégration numérique](#Méthodes d’intégration numérique)
-3. [Interpolation polynomiale:](#Interpolation polynomiale:)
+3. [Interpolation polynomiale](#Interpolation polynomiale)
 4. [Conclusion](#Conclusion)
 
 
 ## Introduction:
 <img src='Project/demo_peek.gif'/>
-## Méthodes d’intégration numérique
+## Méthodes d’intégration numérique:
 
 #### But 
  
