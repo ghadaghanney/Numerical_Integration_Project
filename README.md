@@ -48,9 +48,11 @@ peuvent atteindre de très grandes précisions. Cependant, le temps de calcul au
  #### Méthode du trapèze
  
  #### Méthode de Simpson 
+ 
 ## Interpolation polynomiale:
-  #### Interpolation de Lagrange
+#### Interpolation de Lagrange
+
+#### Phénomène de Runge
   
-  #### Phénomène de Runge
 ## Conclusion
 
