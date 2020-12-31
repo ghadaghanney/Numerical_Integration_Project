@@ -3,8 +3,8 @@ Visual Studio Code , Python
 <img src='Project/entete.png'/>
 ## Sommaire: 
 1. [Introduction](#Introduction)
-2. [Méthodes d’intégration numérique](#Méthodes d’intégration numérique)
-3. [Interpolation polynomiale](#Interpolation polynomiale)
+2. [Méthodes d’intégration numérique](#Méthodes)
+3. [Interpolation polynomiale](#Interpolation)
 4. [Conclusion](#Conclusion)
 
 
