@@ -4,7 +4,7 @@ Visual Studio Code , Python
 # Sommaire : 
 ## Introduction
 ## Méthodes d’intégration numérique
- But
+ But \n
  Motivations
  Principe
  Performances
